@@ -5,7 +5,7 @@ github.com/Microsoft/go-winio/pkg/guid
 # github.com/blang/semver v3.5.1+incompatible
 ## explicit
 github.com/blang/semver
-# github.com/container-storage-interface/spec v1.8.0
+# github.com/container-storage-interface/spec v1.10.0
 ## explicit; go 1.18
 github.com/container-storage-interface/spec/lib/go/csi
 # github.com/digitalocean/go-metadata v0.0.0-20220602160802-6f1b22e9ba8c
@@ -60,7 +60,6 @@ github.com/gogo/protobuf/proto
 ## explicit; go 1.17
 github.com/golang/protobuf/jsonpb
 github.com/golang/protobuf/proto
-github.com/golang/protobuf/protoc-gen-go/descriptor
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
@@ -208,10 +207,10 @@ google.golang.org/appengine/internal/log
 google.golang.org/appengine/internal/remote_api
 google.golang.org/appengine/internal/urlfetch
 google.golang.org/appengine/urlfetch
-# google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21
-## explicit; go 1.15
+# google.golang.org/genproto/googleapis/rpc v0.0.0-20230803162519-f966b187b2e5
+## explicit; go 1.19
 google.golang.org/genproto/googleapis/rpc/status
-# google.golang.org/grpc v1.51.0
+# google.golang.org/grpc v1.57.1
 ## explicit; go 1.17
 google.golang.org/grpc
 google.golang.org/grpc/attributes
