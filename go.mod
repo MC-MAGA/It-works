@@ -6,7 +6,7 @@ toolchain go1.22.2
 
 require (
 	github.com/blang/semver v3.5.1+incompatible
-	github.com/container-storage-interface/spec v1.8.0
+	github.com/container-storage-interface/spec v1.10.0
 	github.com/digitalocean/go-metadata v0.0.0-20220602160802-6f1b22e9ba8c
 	github.com/digitalocean/godo v1.99.0
 	github.com/docker/docker v20.10.24+incompatible
@@ -19,7 +19,7 @@ require (
 	golang.org/x/oauth2 v0.8.0
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.18.0
-	google.golang.org/grpc v1.51.0
+	google.golang.org/grpc v1.57.1
 	gotest.tools/v3 v3.4.0
 	k8s.io/apimachinery v0.27.1
 	k8s.io/klog/v2 v2.120.1
@@ -50,7 +50,7 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230803162519-f966b187b2e5 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
